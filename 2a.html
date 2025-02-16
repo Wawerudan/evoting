@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="2a.css">
+    <script src="1b.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class=" name">
+            <img src="lg.png" alt="">
+            IEBC <br>
+        </div>
+    </nav>
+    <marquee>
+        Voting Stats at 8:00am and ends at 6:00pm
+    </marquee>
+ <div class="step step-1 active">
+    <div class="container">
+        <div class="head">
+            <h2>IEBC PORTAL</h2>
+            <img src="lg.png" alt="">
+            </div>
+        Enter id no: <input type="number">
+        Enter voting pin: <input type="number">
+
+    <button class="btn-1" id="btn-step-1">Proceed to vote</button>
+    </div>  
+ </div>
+ <div class="step step-2">
+    <div class="cont1">
+        <label for="counties">Select County</label>
+        <select id="county">
+        <option value="">--Select a County--</option>
+        <option value="Mombasa">Mombasa</option>
+        <option value="2">Kwale</option>
+        <option value="3">Kilifi</option>
+        <option value="">Mandera</option>
+        <option value="">Malindi</option>
+        <option value="">Marsabit</option>
+        <option value="">Kericho</option>
+        <option value="">laikipia</option>
+        <option value="">Makueni</option>
+        <option value="">Kericho</option>
+        <option value="">Kitui</option>
+        <option value="">Machakos</option>
+        <option value="">Kirinyanga</option>
+        <option value="">Nyandarua</option>
+        <option value="">Muranga</option>
+        <option value="">turkana</option>
+        <option value="">Trans-zoia</option>
+        <option value="">Kiambu</option>
+        <option value="">isiolo</option>
+        <option value="">Garissa</option>
+        <option value="Nairobi">Nairobi</option>
+        <option value="Nyeri">Nyeri</option>
+    </select>
+    <label for="">Select Constituency..>></label>
+    <select  id="constituency">
+        <option value="">Select constituency</option>
+    </select>
+    <button class="btn-1" id="btn-step-2">Proceed to vote</button>
+    </div>
+ </div>
+ <div class="step step-3">
+    <div class="cont">
+        <h4>Presidential Candidates</h4>
+        <table>
+            <tr>
+                <th>Name & Picture</th>
+                <th>Political Party</th>
+                <th>Select</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="aspirant-info">
+                        <img src="rs.jpeg" alt="William Ruto">
+                        <h2>William Ruto</h2>
+                    </div>
+                </td>
+                <td>UDA</td>
+                <td>
+                    <input type="radio" id="1" name="president" value="William Ruto">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="aspirant-info">
+                        <img src="rg.jpeg" alt="Rigathi Gachagua">
+                        <h2>Rigathi Gachagua</h2>
+                    </div>
+                </td>
+                <td>Wamunyoro</td>
+                <td>
+                    <input type="radio" id="2" name="president" value="Rigathi Gachagua">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="aspirant-info">
+                        <img src="mg.jpeg" alt="Fred Matiangi">
+                        <h2>Fred Matiangi</h2>
+                    </div>
+                </td>
+                <td>Jubilee</td>
+                <td>
+                    <input type="radio" id="3" name="president" value="Fred Matiangi">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="aspirant-info">
+                        <img src="ks.jpeg" alt="Kalonzo Musyoka">
+                        <h2>Kalonzo Musyoka</h2>
+                    </div>
+                </td>
+                <td>Wiper</td>
+                <td>
+                    <input type="radio" id="4" name="president" value="Kalonzo Musyoka">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="aspirant-info">
+                        <img src="bw.jpeg" alt="Babu Owino">
+                        <h2>Babu Owino</h2>
+                    </div>
+                </td>
+                <td>ODM</td>
+                <td>
+                    <input type="radio" id="5" name="president" value="Babu Owino">
+                </td>
+            </tr>
+        </table>
+        <button class="btn-1" id="btn-step-3">Proceed to vote</button>
+    </div>
+</div>
+
+<div class=" step step-4">
+    <div class="cont">
+        <h4>Governor Candidates</h4>
+        <table>
+            <tr>
+                <th>Name & Picture</th>
+                <th>Political Party</th>
+                <th>Select</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="aspirant-info">
+                        <img src="mk.jpeg" alt="William Ruto">
+                        <h2>Mutahi Kahiga</h2>
+                    </div>
+                </td>
+                <td>Wamunyoro</td>
+                <td>
+                    <input type="radio" id="1" name="governor" value="Mutahi kahiga">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="aspirant-info">
+                        <img src="tm.jpeg" alt="Rigathi Gachagua">
+                        <h2>Thuo Mathenge</h2>
+                    </div>
+                </td>
+                <td>TND</td>
+                <td>
+                    <input type="radio" id="2" name="governor" value="Thuo Mathenge">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="aspirant-info">
+                        <img src="mk1.jpeg" alt="Fred Matiangi">
+                        <h2>Mutahi Kagwe</h2>
+                    </div>
+                </td>
+                <td>Jubilee</td>
+                <td>
+                    <input type="radio" id="3" name="governor" value="Mutahi Kagwe">
+                </td>
+            </tr>
+        </table>
+    <button class="btn-1" id="btn-step-4">Proceed to vote</button>
+</div>
+</div>
+<div class=" step step-5">
+    <div class="cont">
+        <h4>Women Representative</h4>
+        <table>
+            <tr>
+                <th>Candidates</th>
+                <th>Political Party</th>
+                <th>Select</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="aspirant-info">
+                        <img src="rm.jpeg" alt="William Ruto">
+                        <h2>Rahab Mukami</h2>
+                    </div>
+                </td>
+                <td>Wamunyoro</td>
+                <td>
+                    <input type="radio" id="1" name="women-rep" value="Mutahi kahiga">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="aspirant-info">
+                        <img src="an.jpeg" alt="Rigathi Gachagua">
+                        <h2>Ann Njoroge</h2>
+                    </div>
+                </td>
+                <td>Independent</td>
+                <td>
+                    <input type="radio" id="2" name="women-rep" value="Ann Njoroge">
+                </td>
+            </tr>
+                <tr>
+                    <td>
+                        <div class="aspirant-info">
+                            <img src="sg.jpeg" alt="Rigathi Gachagua">
+                            <h2>Sunny Githumbi</h2>
+                        </div>
+                    </td>
+                    <td>Independent</td>
+                    <td>
+                        <input type="radio" id="2" name="women-rep" value="Ann Njoroge">
+                    </td>
+                </tr>
+            </table>
+    <button class="btn-1" id="btn-step-5">Proceed to vote</button>
+</div>
+</div>
+<div class=" step step-5">
+    <div class="cont">
+        <h4>Senetor</h4>
+        <table>
+            <tr>
+                <th>Candidates</th>
+                <th>Political Party</th>
+                <th>Select</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="aspirant-info">
+                        <img src="wm.jpeg" alt="William Ruto">
+                        <h2>Wahome Wamatinga</h2>
+                    </div>
+                </td>
+                <td>UDA</td>
+                <td>
+                    <input type="radio" id="1" name="senator" value="Wahome wa matinga">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="aspirant-info">
+                        <img src="pn.jpeg" alt="Rigathi Gachagua">
+                        <h2>Priscila Nyokabi</h2>
+                    </div>
+                </td>
+                <td>Jubilee</td>
+                <td>
+                    <input type="radio" id="2" name="senator" value="Priscila Nyokabi">
+                </td>
+            </tr>
+                <tr>
+                    <td>
+                        <div class="aspirant-info">
+                            <img src="kk.jpeg" alt="Rigathi Gachagua">
+                            <h2>Kabado wa kabando</h2>
+                        </div>
+                    </td>
+                    <td>Wamunyoro</td>
+                    <td>
+                        <input type="radio" id="2" name="senator" value="Kabado wa kabado">
+                    </td>
+                </tr>
+            </table>
+    <button class="btn-1" id="btn-step-6">Proceed to vote</button>
+</div>
+</div>
+<div class="step step-7">
+    <div class="final">
+    <h4>Your Selected Choices:</h4>
+    <p><strong>County:</strong> <span id="picked-county">None</span></p>
+    <p><strong>Constituency:</strong> <span id="picked-constituency">None</span></p>
+    <p><strong>Governor:</strong> <span id="picked-governor">None</span></p>
+    <p><strong>Senator:</strong> <span id="picked-senator">None</span></p>
+    <p><strong>Women Representative:</strong> <span id="picked-women-rep">None</span></p>
+    <p><strong>President:</strong> <span id="picked-president">None</span></p>
+    <button id="confirm-vote">Confirm Vote</button>
+    </div>
+</div>
+
+</body>
+</html>
