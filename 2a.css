@@ -1,0 +1,137 @@
+.step {
+    display: none; 
+}
+
+.step.active {
+    display: flex;
+}
+body{
+    background-color:transparent;
+}
+.name{
+    font-size: 30px;
+    color: green;
+    display: flex;
+}
+.name img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+nav{
+    background-color: greenyellow;
+    padding: 30px;
+}
+marquee{
+    margin-top: 30px;
+    font-size: 35px;
+    color: red;
+  }
+.container{
+    display: flex;
+     width: 20%;
+     margin: 0 auto;
+     justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-top: 40px;
+}
+input{
+    width: 60%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 4px;
+      border-bottom: 2px solid #ccc;
+}
+.head{
+    padding: 10px;
+    background-color:greenyellow;
+    display: flex;
+  }
+  .head img{
+    border-radius: 50%;
+    margin-left:16px;
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+  }
+button{
+    background-color:green;
+    border: none;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid #ccc;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #007bff;
+    color: white;
+  }
+  .cont {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 10px;
+    width: 80%;
+    justify-content: center;
+    margin-left: 45px;
+}
+
+.aspirant-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.aspirant-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.cont1{
+    display: flex;
+      flex-direction: column;
+      width: 40%;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+}
+select{
+    width: 80%;
+    border-radius: 40px;
+}
+.final{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    width: 60%;
+}
+h4{
+    border-bottom:2px solid #444;
+    color: #007bff;
+    font-size: 18px;
+}
